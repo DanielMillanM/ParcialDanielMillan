@@ -1,7 +1,7 @@
 ﻿
 namespace Parcial
 {
-    partial class Form1
+    partial class InicioSesion
     {
         /// <summary>
         /// Variable del diseñador necesaria.
