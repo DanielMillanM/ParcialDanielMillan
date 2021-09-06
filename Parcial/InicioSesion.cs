@@ -16,5 +16,34 @@ namespace Parcial
         {
             InitializeComponent();
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            var User = "daniel";
+            var admn = "felipe";
+            var contrauser = "0209";
+            var contradmn = "2003";
+            if (usuario.Text == User && contraseña.Text==contrauser)
+            {
+                Trabajo newreport = new Trabajo();
+                newreport.Show();
+            }
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
