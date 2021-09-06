@@ -37,8 +37,13 @@ namespace Parcial
             {
                 Trabajo newtrabajo  = new Trabajo();
                 newtrabajo.Show(this);
+                
             }
-
+            if (usuario.Text==admn && contraseña.Text==contradmn)
+            {
+                Admin newadmin = new Admin();
+                newadmin.Show(this);
+            }
         }
 
         private void label1_Click(object sender, EventArgs e)
