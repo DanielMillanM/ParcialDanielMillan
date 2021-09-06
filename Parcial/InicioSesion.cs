@@ -35,8 +35,8 @@ namespace Parcial
             var contradmn = "2003";
             if (usuario.Text == User && contraseña.Text==contrauser)
             {
-                Trabajo newreport = new Trabajo();
-                newreport.Show();
+                Trabajo newtrabajo  = new Trabajo();
+                newtrabajo.Show(this);
             }
 
         }
