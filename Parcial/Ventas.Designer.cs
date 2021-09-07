@@ -45,7 +45,6 @@ namespace Parcial
             this.btnvender = new System.Windows.Forms.Button();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.Resultados = new System.Windows.Forms.ListBox();
-            this.btnenviar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // aliñado
@@ -168,7 +167,7 @@ namespace Parcial
             // 
             // btnvender
             // 
-            this.btnvender.Location = new System.Drawing.Point(374, 248);
+            this.btnvender.Location = new System.Drawing.Point(353, 254);
             this.btnvender.Name = "btnvender";
             this.btnvender.Size = new System.Drawing.Size(75, 23);
             this.btnvender.TabIndex = 21;
@@ -194,23 +193,12 @@ namespace Parcial
             this.Resultados.Size = new System.Drawing.Size(425, 132);
             this.Resultados.TabIndex = 23;
             // 
-            // btnenviar
-            // 
-            this.btnenviar.Location = new System.Drawing.Point(261, 248);
-            this.btnenviar.Name = "btnenviar";
-            this.btnenviar.Size = new System.Drawing.Size(75, 23);
-            this.btnenviar.TabIndex = 24;
-            this.btnenviar.Text = "Enviar";
-            this.btnenviar.UseVisualStyleBackColor = true;
-            this.btnenviar.Click += new System.EventHandler(this.btnenviar_Click);
-            // 
             // Ventas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Gold;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.btnenviar);
             this.Controls.Add(this.Resultados);
             this.Controls.Add(this.textBox4);
             this.Controls.Add(this.btnvender);
@@ -252,6 +240,5 @@ namespace Parcial
         private System.Windows.Forms.Button btnvender;
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.ListBox Resultados;
-        private System.Windows.Forms.Button btnenviar;
     }
 }
